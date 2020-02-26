@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">ChipperRedditTest</string>
+    <string name="app_name">Chiper Reddit Test</string>
+
+    <!-- Messages -->
+    <string name="message_loading_default">Loading…</string>
+    <string name="message_empty_posts_list">Failed to load posts.</string>
+
 </resources>
