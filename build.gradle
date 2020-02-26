@@ -17,6 +17,7 @@ ext {
     pagingVersion = "2.1.1"
     browserVersion = "1.3.0-alpha01"
     swipeRefreshVersion = "1.1.0-alpha03"
+    lottieVersion = "3.3.0"
 
     // Arch
     lifecycleVersion = "2.2.0"
