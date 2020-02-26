@@ -4,5 +4,6 @@
     <!-- Messages -->
     <string name="message_loading_default">Loading…</string>
     <string name="message_empty_posts_list">Failed to load posts.</string>
+    <string name="designeb_by_splash">Designed by Juan Camilo Sandoval</string>
 
 </resources>
