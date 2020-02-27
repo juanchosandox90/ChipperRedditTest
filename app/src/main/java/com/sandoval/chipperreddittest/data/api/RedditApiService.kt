@@ -1,4 +1,4 @@
-package com.sandoval.chipperreddittest.data
+package com.sandoval.chipperreddittest.data.api
 
 import com.sandoval.chipperreddittest.model.Post
 import com.squareup.moshi.Json

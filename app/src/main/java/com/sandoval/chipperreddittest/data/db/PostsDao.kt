@@ -1,4 +1,4 @@
-package com.sandoval.chipperreddittest.data
+package com.sandoval.chipperreddittest.data.db
 
 import androidx.room.*
 import com.sandoval.chipperreddittest.model.Post
