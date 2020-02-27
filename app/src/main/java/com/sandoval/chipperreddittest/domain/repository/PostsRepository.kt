@@ -1,4 +1,4 @@
-package com.sandoval.chipperreddittest.domain
+package com.sandoval.chipperreddittest.domain.repository
 
 import com.sandoval.chipperreddittest.model.Post
 import com.sandoval.chipperreddittest.model.PostContainer

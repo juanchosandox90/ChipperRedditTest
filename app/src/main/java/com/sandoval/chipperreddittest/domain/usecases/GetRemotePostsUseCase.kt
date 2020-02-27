@@ -1,5 +1,8 @@
-package com.sandoval.chipperreddittest.domain
+package com.sandoval.chipperreddittest.domain.usecases
 
+import com.sandoval.chipperreddittest.domain.util.Either
+import com.sandoval.chipperreddittest.domain.common.BaseUseCase
+import com.sandoval.chipperreddittest.domain.repository.PostsRepository
 import com.sandoval.chipperreddittest.model.PostContainer
 
 class GetRemotePostsUseCase(

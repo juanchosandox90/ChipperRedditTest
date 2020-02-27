@@ -1,4 +1,4 @@
-package com.sandoval.chipperreddittest.domain
+package com.sandoval.chipperreddittest.domain.util
 
 /**
  * Represents a value of one of two possible types (a disjoint union).
@@ -8,6 +8,7 @@ package com.sandoval.chipperreddittest.domain
  *
  * @see Left
  * @see Right
+ * Documentation for Either in Kotlin: https://www.adictosaltrabajo.com/2019/07/04/either-en-kotlin/
  */
 
 sealed class Either<out L, out R> {
