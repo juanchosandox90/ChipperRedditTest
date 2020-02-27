@@ -1,5 +1,6 @@
-package com.sandoval.chipperreddittest.domain
+package com.sandoval.chipperreddittest.domain.common
 
+import com.sandoval.chipperreddittest.domain.util.Either
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.async
 import kotlinx.coroutines.launch
