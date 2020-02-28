@@ -5,6 +5,6 @@
     app:startDestination="@id/postListFragment">
     <fragment
         android:id="@+id/postListFragment"
-        android:name="com.sandoval.chipperreddittest.PostListFragment"
+        android:name="com.sandoval.chipperreddittest.presentation.ui.main.list.fragment.PostsListFragment"
         android:label="PostListFragment" />
 </navigation>
