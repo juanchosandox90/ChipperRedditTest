@@ -2,12 +2,20 @@
  Chiper test for android using reddit API
  
  # Chiper Reddit Test Application:
- - Koin
- - Kotlin Coroutines
- - Navigation
- - Retrofit2
- - Koin ViewModel
- - MVVM
+ - Clean Architecture
+- MVVM
+- [Koin](https://insert-koin.io/)
+- [Data Binding](https://developer.android.com/topic/libraries/data-binding/)
+- [LiveData](https://developer.android.com/topic/libraries/architecture/livedata)
+- [Navigation](https://developer.android.com/topic/libraries/architecture/navigation.html)
+- [Paging](https://developer.android.com/topic/libraries/architecture/paging/)
+- [Room](https://developer.android.com/topic/libraries/architecture/room)
+- [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel)
+- [Retrofit](https://square.github.io/retrofit/)
+- [OkHttp](https://square.github.io/okhttp/)
+- [Glide](https://bumptech.github.io/glide/)
+- [Timber](https://github.com/JakeWharton/timber)
+- [Material Design](https://material.io/develop/android/)
  
  # Arquitectura
    * La capa de datos donde se establece la persistencia ya sea a una base de datos local tipo Room, SQLite, Realm o uso de SharedPreferences, así como tambien 
