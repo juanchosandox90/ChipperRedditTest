@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/postListFragment">
+    <fragment
+        android:id="@+id/postListFragment"
+        android:name="com.sandoval.chipperreddittest.presentation.ui.main.list.fragment.PostsListFragment"
+        android:label="PostListFragment">
+        <action
+            android:id="@+id/actionListToDetails"
+            app:destination="@id/postDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/postDetailsFragment"
+        android:name="com.sandoval.chipperreddittest.presentation.ui.main.details.PostDetailsFragment"
+        android:label="PostDetailsFragment" />
+</navigation>
