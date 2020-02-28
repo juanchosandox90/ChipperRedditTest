@@ -26,7 +26,8 @@
  * La capa de dominio donde se hace uso de Interactors o Use Cases, en la cual se ejecuta la logica de negocio y se controla la persistencia u obtencion de datos, 
    asi como tambien se pueden disparar estas operaciones en segundo plano. Gracias a esta capa se hace una diferenciacion y se añade una capa mas de abstraccion 
    que permite desligar el modelo de datos de las operaciones. Esto permitira al Interactor realizar sus tareas sin responsabilizarse de la capa de datos.
-   * La capa de presentación se encarga de mostrar todas las vistas consumiento los casos de uso que se llenan atraves de la data. Sencillamente no existe logica de negocio en esta capa, solo actual como disparador de las vistas.
+   
+ * La capa de presentación se encarga de mostrar todas las vistas consumiento los casos de uso que se llenan atraves de la data. Sencillamente no existe logica de negocio en esta capa, solo actual como disparador de las vistas.
 
 ### Paleta de Colores
     <color name="colorPrimary">#60A3BC</color>
