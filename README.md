@@ -16,6 +16,8 @@
 - [Glide](https://bumptech.github.io/glide/)
 - [Timber](https://github.com/JakeWharton/timber)
 - [Material Design](https://material.io/develop/android/)
+
+![MVVM](mvvm.png)
  
  # Arquitectura
    * La capa de datos donde se establece la persistencia ya sea a una base de datos local tipo Room, SQLite, Realm o uso de SharedPreferences, así como tambien 
@@ -32,8 +34,7 @@
 ### Paleta de Colores
     <color name="colorPrimary">#60A3BC</color>
     <color name="colorBrand">#FF4500</color>
-### Screenshots
-
+    
 ### Licencia
 ```
    Copyright (C) 2020 Juan Camilo Sandoval Devia
