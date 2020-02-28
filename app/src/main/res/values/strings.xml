@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Chiper Reddit Test</string>
-
-    <!-- Messages -->
+    <string name="post_head">%1$s</string>
+    <string name="post_subhead">%1$s &#183; %2$d hours ago</string>
     <string name="message_loading_default">Loading…</string>
     <string name="message_empty_posts_list">Failed to load posts.</string>
     <string name="designeb_by_splash">Designed by Juan Camilo Sandoval</string>
