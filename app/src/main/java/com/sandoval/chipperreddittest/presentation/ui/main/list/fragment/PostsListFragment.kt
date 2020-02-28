@@ -1,9 +1,11 @@
 package com.sandoval.chipperreddittest.presentation.ui.main.list.fragment
 
 import android.os.Bundle
+import androidx.navigation.fragment.findNavController
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.os.bundleOf
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.sandoval.chipperreddittest.R
 import com.sandoval.chipperreddittest.model.Post
@@ -89,7 +91,8 @@ class PostsListFragment : BaseFragment() {
     }
 
     private fun selectItem(item: Post) {
-
+        val args = bundleOf(ARG_SELECTED_ITEM to item)
+        findNavController().navigate(R.id.actionListToDetails, args)
     }
 
     companion object {
